@@ -1,0 +1,8 @@
+dotenv
+langchain-google-genai==3.0.0
+langchain==1.0.3
+langchain-community==0.4.1
+langchain-text-splitters
+pytubefix
+openai-whisper
+docarray
