@@ -4,7 +4,9 @@ A web-based RAG (Retrieval-Augmented Generation) application that allows you to 
 
 ## Demo
 
+```html
 <video src="demo/demo.mp4" controls width="100%"></video>
+```
 
 ## Features
 
