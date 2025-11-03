@@ -3,10 +3,7 @@
 A web-based RAG (Retrieval-Augmented Generation) application that allows you to ask questions about YouTube videos.
 
 ## Demo
-
-```html
-<video src="demo/demo.mp4" controls width="100%"></video>
-```
+<video src="https://github.com/user-attachments/assets/2a832422-2786-432f-8359-d024d9956ef9" controls width="100%"></video>
 
 ## Features
 
