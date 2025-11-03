@@ -1,6 +1,10 @@
-# YouTube Video Q&A Demo
+# YouTube Video Q&A RAG from scratch
 
 A web-based RAG (Retrieval-Augmented Generation) application that allows you to ask questions about YouTube videos.
+
+## Demo
+
+<video src="demo/demo.mp4" controls width="100%"></video>
 
 ## Features
 
@@ -18,21 +22,25 @@ A web-based RAG (Retrieval-Augmented Generation) application that allows you to 
 ## Setup
 
 1. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 If you're using CUDA, also install PyTorch with CUDA support:
+
 ```bash
 pip install -r requirements_cuda.txt
 ```
 
 2. Create a `.env` file in the project root:
+
 ```
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
 3. Run the Streamlit app:
+
 ```bash
 streamlit run app.py
 ```
@@ -57,4 +65,3 @@ The app will open in your browser at `http://localhost:8501`
 - **CUDA errors**: Make sure you have CUDA installed and compatible PyTorch version
 - **API errors**: Verify your `GEMINI_API_KEY` is set correctly in the `.env` file
 - **Video too long**: Only videos shorter than 30 minutes are supported
-
