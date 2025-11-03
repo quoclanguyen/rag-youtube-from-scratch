@@ -2,4 +2,4 @@
 .env
 __pycache__/
 test*.*
-transcript.txt
+transcript*.txt

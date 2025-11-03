@@ -6,3 +6,4 @@ langchain-text-splitters
 pytubefix
 openai-whisper
 docarray
+streamlit
